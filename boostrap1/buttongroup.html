@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button groups</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</head>
+<body>
+<div class="container pt-4">
+    <h3>Button group</h3>
+     <div class="btn-group" role="group">
+         <button type="button" class="btn btn-secondary">Home</button>
+         <button type="button" class="btn btn-secondary">About</button>
+         <button type="button" class="btn btn-secondary">Gallery</button>
+         <button type="button" class="btn btn-secondary">Contacts</button>
+     </div>
+</div>
+<div class="container pt-4">
+    <h3>Nesting</h3>
+    <div class="btn-group" role="group">
+
+        <button type="button" class="btn btn-danger">1</button>
+        <button type="button" class="btn btn-danger">2</button>
+        <button type="button" class="btn btn-danger">3</button>
+        <button type="button" class="btn btn-danger">4</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toogle>Dropdown</button>
+       <div class="dropdown-menu" aria-labelledby="btngroup1">
+           <a class="dropdown-item" href="#">Drope one</a>
+           <a class="dropdown-item" href="#">Drope two</a>
+       </div>
+
+    </div>
+</div>
+
+</body>
+</html>

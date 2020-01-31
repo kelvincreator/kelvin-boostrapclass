@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hospital form</title>
+    <style>
+        div{
+            padding: 15px;
+            background-color:black;
+            color:purple;
+        }
+        .styleinput{
+            width: 70%;
+        }
+        .styleh1{
+            background-color: darkgreen;
+            font-family: "Fira Code";
+        }
+        .stylebutton{
+            width: 40%;
+            margin-left: 250px;
+            margin-top: 15px;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center" style="font-size: 30px"class="styleh1">KENYA NATIONAL HOSPITAL</h1>
+<h2 align="center" style="color: darkgreen">patients form</h2>
+<div>
+    first name: <input type="text"name="first name"
+                       placeholder="enter first name">
+</div>
+<div>
+    last name: <input type="text"name="last name"
+                      placeholder="enter last name">
+</div>
+<div>
+    Date of birth: <input type="date"name="dob">
+</div>
+<div>
+    Gender:
+    <input type="radio"name="gender"value="male">male
+    <input type="radio"name="gender"value="female">female
+    <input type="radio"name="gender"value="other">other
+
+</div>
+<div>
+    phone number: <input type="name"name="phone number">
+</div>
+<div>
+    Email: <input type="text"name="email"value="example@gmail.com">
+</div>
+<div>
+    Postal Address: <input type="text"name="postal address">
+    Postal code: <input type="text"name="postal code">
+</div>
+<div>
+    reason for visiting:
+    <input type="checkbox"name="reason"value="treatment">treatment
+    <input type="checkbox"name="reason"value="visiting patient">visiting patient
+    <input type="checkbox"name="reason"value="donation">donation
+    <input type="checkbox"name="reason"value="charity activity">charity activity
+
+</div>
+<div>
+    If treatment:
+    <input type="checkbox"name="reason"value="inpatient">inpatient
+    <input type="checkbox"name="reason"value="outpatient">outpatient
+</div>
+<button class="stylebutton">submit your form</button>
+
+</body>
+</html>

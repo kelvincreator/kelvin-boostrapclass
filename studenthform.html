@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student form</title>
+    <style>
+        div{
+            padding: 15px;
+        }
+        .styleinput{
+            width: 60%;
+        }
+        .stylebutton{
+            width: 40%;
+            margin-left: 250px;
+            margin-top: 15px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body bgcolor="#006400"text="purple">
+
+<h2 style="text-align: center">kindly register here!</h2>
+<form action="#"style="background-color: crimson">
+
+    <div>
+       first name: <input type="text"name="firstname"
+               placeholder="Enter first name"class="styleinput">
+    </div>
+    <div>
+        Last name: <input type="text"name=""
+                          placeholder="enter last name"class="styleinput">
+    </div>
+    <div>
+      Date of birth: <input type="date"name="dob">
+
+    </div>
+    <div>
+      exam points: <input type="number"name="point"value="">
+
+    </div>
+    <div>
+    Gender:
+        <input type="radio"name="gender"value="male">male
+        <input type="radio"name="gender"value="female">female
+        <input type="radio"name="gender"value="other">other
+
+    </div>
+    <div>
+        Courses:
+        <input type="checkbox"name="course"value="mit">mit
+        <input type="checkbox"name="course"value="python">python
+        <input type="checkbox"name="course"value="js">js
+        <input type="checkbox"name="course"value="graphics">graphics
+
+    </div>
+    <div>
+        Class time: <input type="time"name="time">
+    </div>
+    <div>
+        email: <input type="email"name="email"value="example@gmail.com">
+    </div>
+    <button class="stylebutton" >submit your form</button>
+</form>
+
+</body>
+</html>
