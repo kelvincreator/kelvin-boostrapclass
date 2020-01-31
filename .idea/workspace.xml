@@ -53,6 +53,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -171,12 +176,12 @@
       <workItem from="1580294004018" duration="5899000" />
       <workItem from="1580301666801" duration="3881000" />
       <workItem from="1580364482004" duration="78000" />
-      <workItem from="1580469925978" duration="668000" />
+      <workItem from="1580469925978" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668000" />
+    <option name="totallyTimeSpent" value="1378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
